@@ -1,0 +1,29 @@
+{
+  "name": "rust-wasm-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "webpack-dev-server --port 4000",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaufiqRaw/rust-wasm-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaufiqRaw/rust-wasm-practice/issues"
+  },
+  "homepage": "https://github.com/TaufiqRaw/rust-wasm-practice#readme",
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.5.1",
+    "text-encoding": "^0.7.0",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
